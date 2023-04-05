@@ -1,0 +1,25 @@
+dict={"I":1,"V":5,"X":10,"L":50,"C":100,"D":500,"M":1000}
+user_input=input("Enter the Roman Values: ")
+
+
+'''c=[]
+if(user_input[0]>user_input[1]):
+    c.append(dict[user_input[0]]+dict[user_input[1]])
+if(user_input[0]<user_input[1]):
+    c.append(dict[user_input[1]]-dict[user_input[0]])
+if(c[0]> dict[user_input[2]]):
+    c.append(c[0]+dict[user_input[2]])
+else:
+    c.append(dict[user_input[2]]-c[0])
+print(c)'''
+
+
+'''for i in user_input:
+    for j in user_input:
+        if dict[i] > dict[j] :
+            c+=dict[i]+dict[j]
+        if dict[i] < dict[j]:
+            dict[j]=dict[j]-dict[i]
+    print(i)
+print(j)
+'''
